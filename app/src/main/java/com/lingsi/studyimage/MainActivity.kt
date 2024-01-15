@@ -10,11 +10,18 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.lingsi.studyimage.data.ImageModel
+import com.lingsi.studyimage.ui.components.MainPager
 import com.lingsi.studyimage.ui.theme.StudyImageTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        val list = arrayListOf<ImageModel>()
+        for(i in 0 until 10){
+            val elephant = ImageModel(R.string.elephant, R.drawable.elephant)
+            list.add(elephant)
+        }
         setContent {
             StudyImageTheme {
                 // A surface container using the 'background' color from the theme
@@ -22,7 +29,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    Greeting("Android")
+                    MainPager(items = list)
                 }
             }
         }
