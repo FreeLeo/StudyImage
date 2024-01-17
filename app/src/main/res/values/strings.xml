@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">StudyImage</string>
+    <string name="elephant_pinyin">dà xiàng</string>
     <string name="elephant">大象</string>
+    <string name="elephant_des">\t\t\t\t大象是地球上最大的陆地动物。它们有非常大的耳朵，可以帮助它们调节体温。你看到长长的鼻子了吗？那是大象的象鼻，非常灵活，可以用来拿东西、喝水，甚至是做为一种沟通的方式。大象的皮肤看起来很粗糙，有很多褶皱，这有助于保持皮肤的健康。而且，一些大象还有长长的象牙，用来挖掘食物和作为防御。大象是非常聪明和感情丰富的动物，它们能够形成紧密的家庭群体。</string>
 </resources>
