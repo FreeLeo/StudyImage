@@ -1,15 +1,34 @@
 package com.lingsi.studyimage.viewmodel
 
-import android.R
 import android.content.Context
 import android.content.res.AssetFileDescriptor
 import android.media.MediaPlayer
 import androidx.annotation.RawRes
 import androidx.lifecycle.ViewModel
+import com.lingsi.studyimage.R
+import com.lingsi.studyimage.data.ImageModel
 
 
 class MainViewModel : ViewModel() {
     private var mediaPlayer: MediaPlayer? = null
+    val dataList: ArrayList<ImageModel> = arrayListOf()
+
+//    private var soundPool: SoundPool? = null
+//    private var currentSoundId: Int? = null
+
+    init {
+        for (i in 0 until 10) {
+            val elephant = ImageModel(
+                R.string.elephant_pinyin,
+                R.string.elephant,
+                R.drawable.elephant,
+                R.string.elephant_des,
+                R.raw.elephant,
+                R.raw.elephant_story,
+            )
+            dataList.add(elephant)
+        }
+    }
 
     fun play(context: Context, @RawRes resId: Int) {
         if (mediaPlayer == null) {

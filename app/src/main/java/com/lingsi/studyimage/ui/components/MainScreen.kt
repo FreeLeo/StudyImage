@@ -5,6 +5,8 @@ import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.interaction.MutableInteractionSource
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -13,24 +15,37 @@ import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.pager.HorizontalPager
 import androidx.compose.foundation.pager.rememberPagerState
 import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.text.ClickableText
 import androidx.compose.foundation.verticalScroll
+import androidx.compose.material.ripple.rememberRipple
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.SideEffect
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.AnnotatedString
+import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.lifecycle.viewmodel.compose.viewModel
 import com.lingsi.studyimage.R
 import com.lingsi.studyimage.data.ImageModel
 import com.lingsi.studyimage.viewmodel.MainViewModel
@@ -42,16 +57,39 @@ val specialFontFamily = FontFamily(
 
 @OptIn(ExperimentalFoundationApi::class)
 @Composable
-fun MainPager(mainViewModel: MainViewModel, items: List<ImageModel>) {
+fun MainScreen(mainViewModel: MainViewModel = viewModel()) {
     val pagerState = rememberPagerState()
-    HorizontalPager(
-        pageCount = 10,
-        state = pagerState,
-        modifier = Modifier.fillMaxSize()
-    ) { page ->
-        ImageItem(items[page],
-            { context, soundResId -> mainViewModel.play(context, soundResId) },
-            { mainViewModel.stop() })
+    var shouldShowDialog by remember { mutableStateOf(false) }
+    Box(modifier = Modifier.fillMaxSize()) {
+        HorizontalPager(
+            pageCount = 10,
+            state = pagerState,
+            modifier = Modifier.fillMaxSize()
+        ) { page ->
+            ImageItem(mainViewModel.dataList[page],
+                { context, soundResId -> mainViewModel.play(context, soundResId) },
+                { mainViewModel.stop() })
+        }
+        Text(
+            modifier = Modifier
+                .align(Alignment.TopEnd)
+                .padding(8.dp)
+                .background(Color(0xFFFF6100), shape = RoundedCornerShape(8.dp))
+                .clip(RoundedCornerShape(8.dp))
+                .clickable(
+                    interactionSource = remember { MutableInteractionSource() },
+                    indication = rememberRipple(bounded = true),
+                    onClick ={ shouldShowDialog = true },
+                )
+                .padding(8.dp),
+            text = "预览",
+            fontFamily = specialFontFamily,
+            color = Color.White,
+            fontSize = 20.sp
+        )
+        if (shouldShowDialog) {
+            PreviewAllDialog(data = mainViewModel.dataList) { shouldShowDialog = false }
+        }
     }
     LaunchedEffect(pagerState.currentPage) {
         mainViewModel.stop()
@@ -64,6 +102,11 @@ fun ImageItem(
     onPlaySound: (Context, Int) -> Unit,
     onStopSound: () -> Unit
 ) {
+    val state = remember { imageModel }
+    state.aa()
+    SideEffect {
+        state.aa()
+    }
     val context = LocalContext.current
     Column(
         modifier = Modifier
@@ -94,7 +137,6 @@ fun ImageItem(
             fontSize = 30.sp,
             textAlign = TextAlign.Center,
         )
-
         Text(
             fontFamily = specialFontFamily,
             modifier = Modifier
@@ -128,17 +170,6 @@ fun ImageItem(
 @Preview
 @Composable
 private fun previewMainPage() {
-    val list = arrayListOf<ImageModel>()
-    for (i in 0 until 10) {
-        val elephant = ImageModel(
-            R.string.elephant_pinyin,
-            R.string.elephant,
-            R.drawable.elephant,
-            R.string.elephant_des,
-            R.raw.elephant,
-            R.raw.elephant_story,
-        )
-        list.add(elephant)
-    }
-    MainPager(MainViewModel(), items = list)
+
+    MainScreen()
 }

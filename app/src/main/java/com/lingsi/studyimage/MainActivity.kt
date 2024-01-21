@@ -12,7 +12,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.lingsi.studyimage.data.ImageModel
-import com.lingsi.studyimage.ui.components.MainPager
+import com.lingsi.studyimage.ui.StudyImageNavGraph
+import com.lingsi.studyimage.ui.components.Counter
 import com.lingsi.studyimage.ui.theme.StudyImageTheme
 import com.lingsi.studyimage.viewmodel.MainViewModel
 
@@ -40,7 +41,9 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    MainPager(mainViewModel, items = list)
+//                    MainPager(mainViewModel, items = list)
+//                    Counter()
+                    StudyImageNavGraph()
                 }
             }
         }

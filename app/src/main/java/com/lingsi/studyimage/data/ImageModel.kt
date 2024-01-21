@@ -17,4 +17,6 @@ class ImageModel(
     val nameAudio: Int,
     @RawRes
     val storyAudio: Int,
-)
+){
+    fun aa(){}
+}
