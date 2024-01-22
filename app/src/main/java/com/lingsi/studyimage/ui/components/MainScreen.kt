@@ -16,7 +16,6 @@ import androidx.compose.foundation.pager.HorizontalPager
 import androidx.compose.foundation.pager.rememberPagerState
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.foundation.text.ClickableText
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.ripple.rememberRipple
 import androidx.compose.material3.Text
@@ -35,13 +34,10 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.text.AnnotatedString
-import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
-import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -60,11 +56,13 @@ val specialFontFamily = FontFamily(
 fun MainScreen(mainViewModel: MainViewModel = viewModel()) {
     val pagerState = rememberPagerState()
     var shouldShowDialog by remember { mutableStateOf(false) }
+    var selectedPageIndex by remember { mutableStateOf(0) }
     Box(modifier = Modifier.fillMaxSize()) {
         HorizontalPager(
-            pageCount = 10,
+            modifier = Modifier.fillMaxSize(),
+            pageCount = mainViewModel.dataList.size,
             state = pagerState,
-            modifier = Modifier.fillMaxSize()
+            reverseLayout = false
         ) { page ->
             ImageItem(mainViewModel.dataList[page],
                 { context, soundResId -> mainViewModel.play(context, soundResId) },
@@ -79,7 +77,7 @@ fun MainScreen(mainViewModel: MainViewModel = viewModel()) {
                 .clickable(
                     interactionSource = remember { MutableInteractionSource() },
                     indication = rememberRipple(bounded = true),
-                    onClick ={ shouldShowDialog = true },
+                    onClick = { shouldShowDialog = true },
                 )
                 .padding(8.dp),
             text = "预览",
@@ -88,11 +86,17 @@ fun MainScreen(mainViewModel: MainViewModel = viewModel()) {
             fontSize = 20.sp
         )
         if (shouldShowDialog) {
-            PreviewAllDialog(data = mainViewModel.dataList) { shouldShowDialog = false }
+            PreviewAllDialog(
+                data = mainViewModel.dataList,
+                onDismissRequest = { shouldShowDialog = false },
+                onDismiss = { index -> selectedPageIndex = index })
         }
     }
     LaunchedEffect(pagerState.currentPage) {
         mainViewModel.stop()
+    }
+    LaunchedEffect(selectedPageIndex) {
+        pagerState.animateScrollToPage(selectedPageIndex)
     }
 }
 
@@ -141,7 +145,7 @@ fun ImageItem(
             fontFamily = specialFontFamily,
             modifier = Modifier
                 .align(Alignment.CenterHorizontally)
-                .padding(top = 10.dp, bottom = 0.dp)
+                .padding(top = 0.dp, bottom = 0.dp)
                 .clickable {
                     onPlaySound(context, imageModel.nameAudio)
                 },

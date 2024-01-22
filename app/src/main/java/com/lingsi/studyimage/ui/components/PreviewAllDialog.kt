@@ -2,6 +2,7 @@ package com.lingsi.studyimage.ui.components
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
@@ -10,10 +11,12 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.grid.GridCells
 import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
+import androidx.compose.foundation.lazy.grid.itemsIndexed
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Card
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -26,12 +29,16 @@ import androidx.compose.ui.window.Dialog
 import com.lingsi.studyimage.data.ImageModel
 
 @Composable
-fun PreviewAllDialog(data: List<ImageModel>, onDismissRequest: () -> Unit) {
+fun PreviewAllDialog(
+    data: List<ImageModel>,
+    onDismissRequest: () -> Unit,
+    onDismiss: (Int) -> Unit
+) {
     Dialog(onDismissRequest = onDismissRequest) {
         Card(
             modifier = Modifier
                 .fillMaxWidth()
-                .height(400.dp)
+                .height(600.dp)
                 .padding(16.dp),
             shape = RoundedCornerShape(16.dp),
         ) {
@@ -41,13 +48,16 @@ fun PreviewAllDialog(data: List<ImageModel>, onDismissRequest: () -> Unit) {
                 horizontalArrangement = Arrangement.spacedBy(8.dp),
                 verticalArrangement = Arrangement.spacedBy(8.dp),
             ) {
-                items(data.size) { index ->
-                    val imageModel = data[index]
+                itemsIndexed(items = data) { index, imageModel ->
                     Box(
                         modifier = Modifier
                             .fillMaxSize()
                             .height(100.dp)
-                            .clip(RoundedCornerShape(8.dp)),
+                            .clip(RoundedCornerShape(8.dp))
+                            .clickable {
+                                onDismissRequest()
+                                onDismiss(index)
+                            },
                         contentAlignment = Alignment.Center,
                     ) {
                         Image(

@@ -3,4 +3,76 @@
     <string name="elephant_pinyin">dà xiàng</string>
     <string name="elephant">大象</string>
     <string name="elephant_des">\t\t\t\t大象是地球上最大的陆地动物。它们有非常大的耳朵，可以帮助它们调节体温。你看到长长的鼻子了吗？那是大象的象鼻，非常灵活，可以用来拿东西、喝水，甚至是做为一种沟通的方式。大象的皮肤看起来很粗糙，有很多褶皱，这有助于保持皮肤的健康。而且，一些大象还有长长的象牙，用来挖掘食物和作为防御。大象是非常聪明和感情丰富的动物，它们能够形成紧密的家庭群体。</string>
+
+    <string name="tiger_pinyin">lǎo hǔ</string>
+    <string name="tiger">老虎</string>
+    <string name="tiger_des">\t\t\t\t看看这只老虎吧！老虎是大型猫科动物，非常强壮和敏捷。它们有漂亮的橙色皮毛，上面有独特的黑色条纹和白色的肚皮。你可以看到老虎的脸上有锋利的牙齿和锐利的眼睛，这表明它们是天生的猎手。老虎生活在森林里，它们是很好的游泳者。老虎会用它们强大的身体和敏捷的动作来捕捉猎物。</string>
+
+    <string name="lion_pinyin">shī zi</string>
+    <string name="lion">狮子</string>
+    <string name="lion_des">\t\t\t\t这是一只狮子。狮子是大型猫科动物，被称为“丛林之王”。你看，它有着壮丽的金色毛发和一大圈鬃毛，这是雄性狮子的特征。狮子的面部看起来既平静又强大，这展示了它们在自然界中的强大地位。狮子主要生活在非洲的草原和丛林中，它们是群居动物，通常由一个雄狮和几只雌狮组成一个家族。</string>
+
+    <string name="giraffe_pinyin">cháng jǐng lù</string>
+    <string name="giraffe">长颈鹿</string>
+    <string name="giraffe_des">\t\t\t\t瞧，长颈鹿。你可以看到长颈鹿非常高大优雅，它的脖子很长，朝上伸展。长颈鹿的皮毛有棕色、黄色和白色的斑块。它的脸很温柔，有着大大的棕色眼睛和长长的睫毛。它头上有小小的角状结构，这叫做骨质疣。长颈鹿的腿很长很细，这是它们独特的体态，尾巴末端还有一撮毛。</string>
+
+    <string name="monkey_pinyin">hóu zi</string>
+    <string name="monkey">猴子</string>
+    <string name="monkey_des">\t\t\t\t看，这是一只猴子。猴子很善于玩耍，它们的身体很灵活，性格也很好奇。猴子的毛皮是棕色的，它的脸色比身体的其他部分要浅一些。猴子的眼睛很有表情。你看到它的长尾巴了吗？这对它们在树上爬来爬去非常有帮助。猴子的手和脚都特别适合攀爬。</string>
+
+    <string name="rabbit_pinyin">tù zi</string>
+    <string name="rabbit">兔子</string>
+    <string name="rabbit_des">\t\t\t\t看，这是一只正在跳跃的兔子。兔子看起来很活泼，它的动作显示出它的敏捷和活力。兔子的毛茸茸的，主要是白色的，有些地方有浅棕色的斑块。它的长耳朵、大眼睛和抽动的鼻子非常显眼。</string>
+
+    <string name="dog_pinyin">gǒu</string>
+    <string name="dog">狗</string>
+    <string name="dog_des">\t\t\t\t看，这是一只狗。狗狗看起来很友好，也很警觉，显示出它的忠诚和爱玩的性格。它的毛发闪亮，有棕色和黑色的色调，眼睛明亮而专注。狗狗的耳朵竖起来，尾巴在摇摆。</string>
+
+    <string name="cat_pinyin">māo</string>
+    <string name="cat">猫</string>
+    <string name="cat_des">\t\t\t\t看，这是一只猫。猫咪正以一种放松和优雅的姿势展示它的高贵和独立性。它的毛发光滑，有灰色和白色的色调，眼睛是绿色的，看起来很锐利。猫咪的耳朵是尖的，尾巴长而弯曲。</string>
+
+    <string name="pig_pinyin">zhū</string>
+    <string name="pig">猪</string>
+    <string name="pig_des">\t\t\t\t看，这是一只猪。猪猪看起来很满足，也很放松，展示了它们的好玩和友好的天性。它的皮肤是粉红色的，有一些硬刷子毛，还有一个典型的猪鼻子。猪的小眼睛和下垂的耳朵是它的显著特征。</string>
+
+    <string name="sheep_pinyin">yáng</string>
+    <string name="sheep">羊</string>
+    <string name="sheep_des">\t\t\t\t看，这是一只羊。羊的身体非常圆润，覆盖着柔软、蓬松的白色羊毛。它有一张可爱的脸，大大的眼睛和一个小小的鼻子。羊通常是温顺和友好的动物，它们经常在草地上吃草。羊的羊毛可以用来做很多东西，比如温暖的毛衣和围巾。羊也会发出“咩咩”的叫声，这是它们交流的方式哦。</string>
+
+    <string name="horse_pinyin">mǎ</string>
+    <string name="horse">马</string>
+    <string name="horse_des">\t\t\t\t看看这幅马的画面。这匹马有着栗色的皮毛，它的鬃毛和尾巴是稍微深一些的棕色。它站立得很自然，展现出它漂亮的长鬃和长尾。马的皮毛看起来很有光泽，让它看起来更加健康和漂亮。</string>
+
+    <string name="cow_pinyin">niú</string>
+    <string name="cow">牛</string>
+    <string name="cow_des">\t\t\t\t看看这张牛的图片，是不是很真实呢？牛是一种大型的家畜，它们通常有大而强壮的身体，四肢粗壮，蹄子坚实。这头牛的皮毛是白色和黑色相间的，这种颜色的牛通常是乳牛。你可以看到牛的角，这是它们的一大特征。牛通常很温顺，它们喜欢悠闲地在草地上吃草。牛不仅能提供牛奶，还能帮助农民耕地哦。</string>
+
+    <string name="panda_pinyin">xióng māo</string>
+    <string name="panda">熊猫</string>
+    <string name="panda_des">\t\t\t\t哇，大熊猫！熊猫是一种非常特别的动物，主要生活在中国。它们的身体大而圆，毛皮是黑白相间的，非常可爱。你看，它的耳朵是圆圆的，眼睛很有表情。熊猫喜欢吃竹子，你可以看到它正拿着竹子。熊猫行动缓慢，性格温和，是很多人喜欢的动物。</string>
+
+    <string name="zebra_pinyin">bān mǎ</string>
+    <string name="zebra">斑马</string>
+    <string name="zebra_des">\t\t\t\t这是斑马！斑马是一种非常有趣的动物，它们的身体上有黑白相间的条纹。每只斑马的条纹都是独一无二的，就像人的指纹一样。斑马有细长的身体和长长的腿，非常适合奔跑。你看，它的鬃毛直立着，眼睛很有神。斑马通常生活在非洲的草原上，喜欢群居。</string>
+
+    <string name="fox_pinyin">hú li</string>
+    <string name="fox">狐狸</string>
+    <string name="fox_des">\t\t\t\t看这里，这是一只狐狸！狐狸是一种很聪明的动物，它们的毛皮通常是红棕色的。狐狸有一条蓬松的尾巴和尖尖的耳朵。它们的身体很灵活，四肢修长，可以快速移动。狐狸的眼神总是很警觉，好像在观察周围的一切。狐狸生活在森林和草原上，它们是夜行性动物，晚上出来寻找食物。</string>
+
+    <string name="mouse_pinyin">lǎo shǔ</string>
+    <string name="mouse">老鼠</string>
+    <string name="mouse_des">\t\t\t\t小老鼠！老鼠是很小的动物，但它们非常聪明。老鼠的身体通常是灰色的，有圆圆的耳朵和长长的尾巴。你看它的眼睛，是不是很有神呢？老鼠很善于适应不同的环境，它们在城市和乡村都能生活。虽然老鼠有时会给人们带来麻烦，但它们也是自然界重要的一部分。</string>
+
+    <string name="snake_pinyin">shé</string>
+    <string name="snake">蛇</string>
+    <string name="snake_des">\t\t\t\t这张蛇！蛇是一种非常特殊的动物，它们没有腿，但可以通过身体的蠕动来移动。蛇的身体很长，覆盖着各种各样的鳞片，有时候是条纹或者斑点。你看，蛇的眼睛很明亮，舌头还会伸出来探测周围的环境。蛇生活在很多不同的地方，比如森林、沙漠甚至水中。虽然有些蛇是有毒的，但大多数蛇对人类是无害的。</string>
+
+    <string name="penguin_pinyin">qǐ é</string>
+    <string name="penguin">企鹅</string>
+    <string name="penguin_des">企鹅，你看，这只企鹅正在走路，它的步态很独特，看起来就像是在摇摆。企鹅的羽毛是黑白相间的，身体短而结实。它们的小脚有蹼，非常适合在水里游泳。企鹅的脸上有明亮的眼睛和显著的喙。企鹅虽然不能飞，但它们是非常擅长游泳的鸟类。\t\t\t\t</string>
+
+<!--    <string name="_pinyin"></string>-->
+<!--    <string name=""></string>-->
+<!--    <string name="_des">\t\t\t\t</string>-->
 </resources>
