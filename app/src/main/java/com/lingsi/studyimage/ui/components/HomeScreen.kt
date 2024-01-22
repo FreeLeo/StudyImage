@@ -28,10 +28,11 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.lingsi.studyimage.data.Category
+import com.lingsi.studyimage.data.CategoryType
 import com.lingsi.studyimage.viewmodel.HomeViewModel
 
 @Composable
-fun HomeScreen(homeViewModel: HomeViewModel = viewModel(), navigateToMain: () -> Unit) {
+fun HomeScreen(homeViewModel: HomeViewModel = viewModel(), navigateToMain: (categoryType:Int) -> Unit) {
     val categoryList = homeViewModel.categoryList
     Box(
         contentAlignment = Alignment.Center,
@@ -51,12 +52,12 @@ fun HomeScreen(homeViewModel: HomeViewModel = viewModel(), navigateToMain: () ->
 }
 
 @Composable
-fun CategoryCard(category: Category, navigateToMain: () -> Unit) {
+fun CategoryCard(category: Category, navigateToMain: (categoryType:Int) -> Unit) {
     Card(
         modifier = Modifier
             .padding(8.dp)
             .fillMaxWidth()
-            .clickable { navigateToMain() },
+            .clickable { navigateToMain(category.type) },
         elevation = CardDefaults.cardElevation(4.dp),
     ) {
         Box(

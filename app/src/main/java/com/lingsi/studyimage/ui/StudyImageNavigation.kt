@@ -1,7 +1,13 @@
 package com.lingsi.studyimage.ui
 
+import androidx.core.os.bundleOf
 import androidx.navigation.NavController
 import androidx.navigation.NavGraph.Companion.findStartDestination
+import com.lingsi.studyimage.data.CategoryType
+
+object StudyImageParams{
+    const val PARAM_CATEGORY_TYPE = "categoryType"
+}
 
 object StudyImageDestinations {
     const val ROUTE_HOME = "home"
@@ -15,7 +21,7 @@ class StudyImageNavigationActions(navController: NavController) {
             launchSingleTop = true
         }
     }
-    val navigateToMain: () -> Unit = {
-        navController.navigate(StudyImageDestinations.ROUTE_MAIN)
+    val navigateToMain: (categoryType: Int) -> Unit = {
+        navController.navigate(route = "${StudyImageDestinations.ROUTE_MAIN}/$it")
     }
 }

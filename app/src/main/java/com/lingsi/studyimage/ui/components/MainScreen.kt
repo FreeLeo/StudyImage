@@ -43,6 +43,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.lingsi.studyimage.R
+import com.lingsi.studyimage.data.CategoryType
 import com.lingsi.studyimage.data.ImageModel
 import com.lingsi.studyimage.viewmodel.MainViewModel
 
@@ -53,18 +54,26 @@ val specialFontFamily = FontFamily(
 
 @OptIn(ExperimentalFoundationApi::class)
 @Composable
-fun MainScreen(mainViewModel: MainViewModel = viewModel()) {
+fun MainScreen(@CategoryType categoryType: Int, mainViewModel: MainViewModel = viewModel()) {
     val pagerState = rememberPagerState()
     var shouldShowDialog by remember { mutableStateOf(false) }
     var selectedPageIndex by remember { mutableStateOf(0) }
+    val list = remember {
+        when (categoryType) {
+            CategoryType.ANIMAL -> mainViewModel.animalList
+            CategoryType.VEGETABLE -> mainViewModel.vegetableList
+            CategoryType.FRUIT -> mainViewModel.fruitList
+            else -> mainViewModel.animalList
+        }
+    }
     Box(modifier = Modifier.fillMaxSize()) {
         HorizontalPager(
             modifier = Modifier.fillMaxSize(),
-            pageCount = mainViewModel.dataList.size,
+            pageCount = list.size,
             state = pagerState,
             reverseLayout = false
         ) { page ->
-            ImageItem(mainViewModel.dataList[page],
+            ImageItem(list[page],
                 { context, soundResId -> mainViewModel.play(context, soundResId) },
                 { mainViewModel.stop() })
         }
@@ -87,7 +96,7 @@ fun MainScreen(mainViewModel: MainViewModel = viewModel()) {
         )
         if (shouldShowDialog) {
             PreviewAllDialog(
-                data = mainViewModel.dataList,
+                data = list,
                 onDismissRequest = { shouldShowDialog = false },
                 onDismiss = { index -> selectedPageIndex = index })
         }
@@ -175,5 +184,5 @@ fun ImageItem(
 @Composable
 private fun previewMainPage() {
 
-    MainScreen()
+    MainScreen(CategoryType.ANIMAL)
 }

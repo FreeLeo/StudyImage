@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">StudyImage</string>
+    <string name="app_name">大千物语</string>
     <string name="elephant_pinyin">dà xiàng</string>
     <string name="elephant">大象</string>
     <string name="elephant_des">\t\t\t\t大象是地球上最大的陆地动物。它们有非常大的耳朵，可以帮助它们调节体温。你看到长长的鼻子了吗？那是大象的象鼻，非常灵活，可以用来拿东西、喝水，甚至是做为一种沟通的方式。大象的皮肤看起来很粗糙，有很多褶皱，这有助于保持皮肤的健康。而且，一些大象还有长长的象牙，用来挖掘食物和作为防御。大象是非常聪明和感情丰富的动物，它们能够形成紧密的家庭群体。</string>
@@ -71,6 +71,18 @@
     <string name="penguin_pinyin">qǐ é</string>
     <string name="penguin">企鹅</string>
     <string name="penguin_des">企鹅，你看，这只企鹅正在走路，它的步态很独特，看起来就像是在摇摆。企鹅的羽毛是黑白相间的，身体短而结实。它们的小脚有蹼，非常适合在水里游泳。企鹅的脸上有明亮的眼睛和显著的喙。企鹅虽然不能飞，但它们是非常擅长游泳的鸟类。\t\t\t\t</string>
+
+    <string name="huluobo_pinyin">hú luó bo</string>
+    <string name="huluobo">胡萝卜</string>
+    <string name="huluobo_des">\t\t\t\t看这个胡萝卜，它是如此鲜艳和诱人！胡萝卜的颜色是鲜明的橙色，它的形状是长长的，一端细一端粗，非常特别。胡萝卜顶端有绿色的叶子，这些叶子看起来很新鲜。你知道吗，胡萝卜不仅颜色鲜艳，而且非常有营养，里面含有很多维生素，对我们的身体非常好。吃胡萝卜可以帮助我们保持健康的眼睛和皮肤。胡萝卜是一种蔬菜，可以生吃也可以煮着吃，味道都很美味哦！</string>
+
+    <string name="qiezi_pinyin">qié zi</string>
+    <string name="qiezi">茄子</string>
+    <string name="qiezi_des">\t\t\t\t看看这个茄子，它的样子真是太棒了！茄子有一个光滑、有光泽的皮肤，它的颜色是深紫色的，非常吸引人的颜色。茄子的顶部有一个绿色的帽子和茎，这些绿色部分和紫色形成了美丽的对比。茄子是一种非常流行的蔬菜，它不仅颜色美丽，而且味道也很好。你可以用它来做很多不同的菜肴，比如炒茄子或者茄子煲。而且，茄子里面还有很多营养，对我们的身体健康很有帮助呢！</string>
+
+    <string name="yangcong_pinyin">yáng cōng</string>
+    <string name="yangcong">洋葱</string>
+    <string name="yangcong_des">\t\t\t\t这是一颗洋葱，它的样子很特别哦！洋葱是圆圆的，外面有一层浅棕色的纸质皮。当你剥开洋葱的皮，里面是白色的，层层叠叠，看起来很有趣。洋葱的底部有根，顶部有一点小芽。洋葱在做菜时非常重要，它能让食物变得更加美味。不过，剥洋葱的时候可能会让我们的眼睛有点辣辣的感觉，这是因为洋葱里有一种特殊的成分。</string>
 
 <!--    <string name="_pinyin"></string>-->
 <!--    <string name=""></string>-->

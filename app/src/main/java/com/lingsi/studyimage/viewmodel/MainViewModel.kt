@@ -11,7 +11,9 @@ import com.lingsi.studyimage.data.ImageModel
 
 class MainViewModel : ViewModel() {
     private var mediaPlayer: MediaPlayer? = null
-    val dataList: ArrayList<ImageModel> = arrayListOf()
+    val animalList: ArrayList<ImageModel> = arrayListOf()
+    val vegetableList: ArrayList<ImageModel> = arrayListOf()
+    val fruitList: ArrayList<ImageModel> = arrayListOf()
 
 //    private var soundPool: SoundPool? = null
 //    private var currentSoundId: Int? = null
@@ -25,7 +27,7 @@ class MainViewModel : ViewModel() {
             R.raw.elephant,
             R.raw.elephant_story,
         )
-        dataList.add(elephant)
+        animalList.add(elephant)
         val tiger = ImageModel(
             R.string.tiger_pinyin,
             R.string.tiger,
@@ -34,7 +36,7 @@ class MainViewModel : ViewModel() {
             R.raw.tiger,
             R.raw.tiger_story,
         )
-        dataList.add(tiger)
+        animalList.add(tiger)
         val lion = ImageModel(
             R.string.lion_pinyin,
             R.string.lion,
@@ -43,7 +45,7 @@ class MainViewModel : ViewModel() {
             R.raw.lion,
             R.raw.lion_story,
         )
-        dataList.add(lion)
+        animalList.add(lion)
         val giraffe = ImageModel(
             R.string.giraffe_pinyin,
             R.string.giraffe,
@@ -52,7 +54,7 @@ class MainViewModel : ViewModel() {
             R.raw.giraffe,
             R.raw.giraffe_story,
         )
-        dataList.add(giraffe)
+        animalList.add(giraffe)
         val monkey = ImageModel(
             R.string.monkey_pinyin,
             R.string.monkey,
@@ -61,7 +63,7 @@ class MainViewModel : ViewModel() {
             R.raw.monkey,
             R.raw.monkey_story,
         )
-        dataList.add(monkey)
+        animalList.add(monkey)
         val rabbit = ImageModel(
             R.string.rabbit_pinyin,
             R.string.rabbit,
@@ -70,7 +72,7 @@ class MainViewModel : ViewModel() {
             R.raw.rabbit,
             R.raw.rabbit_story,
         )
-        dataList.add(rabbit)
+        animalList.add(rabbit)
         val dog = ImageModel(
             R.string.dog_pinyin,
             R.string.dog,
@@ -79,7 +81,7 @@ class MainViewModel : ViewModel() {
             R.raw.dog,
             R.raw.dog_story,
         )
-        dataList.add(dog)
+        animalList.add(dog)
         val cat = ImageModel(
             R.string.cat_pinyin,
             R.string.cat,
@@ -88,7 +90,7 @@ class MainViewModel : ViewModel() {
             R.raw.cat,
             R.raw.cat_story,
         )
-        dataList.add(cat)
+        animalList.add(cat)
         val pig = ImageModel(
             R.string.pig_pinyin,
             R.string.pig,
@@ -97,7 +99,7 @@ class MainViewModel : ViewModel() {
             R.raw.pig,
             R.raw.pig_story,
         )
-        dataList.add(pig)
+        animalList.add(pig)
         val sheep = ImageModel(
             R.string.sheep_pinyin,
             R.string.sheep,
@@ -106,7 +108,7 @@ class MainViewModel : ViewModel() {
             R.raw.sheep,
             R.raw.sheep_story,
         )
-        dataList.add(sheep)
+        animalList.add(sheep)
         val horse = ImageModel(
             R.string.horse_pinyin,
             R.string.horse,
@@ -115,7 +117,7 @@ class MainViewModel : ViewModel() {
             R.raw.horse,
             R.raw.horse_story,
         )
-        dataList.add(horse)
+        animalList.add(horse)
         val cow = ImageModel(
             R.string.cow_pinyin,
             R.string.cow,
@@ -124,7 +126,7 @@ class MainViewModel : ViewModel() {
             R.raw.cow,
             R.raw.cow_story,
         )
-        dataList.add(cow)
+        animalList.add(cow)
         val panda = ImageModel(
             R.string.panda_pinyin,
             R.string.panda,
@@ -133,7 +135,7 @@ class MainViewModel : ViewModel() {
             R.raw.panda,
             R.raw.panda_story,
         )
-        dataList.add(panda)
+        animalList.add(panda)
         val zebra = ImageModel(
             R.string.zebra_pinyin,
             R.string.zebra,
@@ -142,7 +144,7 @@ class MainViewModel : ViewModel() {
             R.raw.zebra,
             R.raw.zebra_story,
         )
-        dataList.add(zebra)
+        animalList.add(zebra)
         val fox = ImageModel(
             R.string.fox_pinyin,
             R.string.fox,
@@ -151,7 +153,7 @@ class MainViewModel : ViewModel() {
             R.raw.fox,
             R.raw.fox_story,
         )
-        dataList.add(fox)
+        animalList.add(fox)
         val mouse = ImageModel(
             R.string.mouse_pinyin,
             R.string.mouse,
@@ -160,7 +162,7 @@ class MainViewModel : ViewModel() {
             R.raw.mouse,
             R.raw.mouse_story,
         )
-        dataList.add(mouse)
+        animalList.add(mouse)
         val snake = ImageModel(
             R.string.snake_pinyin,
             R.string.snake,
@@ -169,7 +171,7 @@ class MainViewModel : ViewModel() {
             R.raw.snake,
             R.raw.snake_story,
         )
-        dataList.add(snake)
+        animalList.add(snake)
         val penguin = ImageModel(
             R.string.penguin_pinyin,
             R.string.penguin,
@@ -178,7 +180,35 @@ class MainViewModel : ViewModel() {
             R.raw.penguin,
             R.raw.penguin_story,
         )
-        dataList.add(penguin)
+        animalList.add(penguin)
+
+        val huluobo = ImageModel(
+            R.string.huluobo_pinyin,
+            R.string.huluobo,
+            R.drawable.huluobo,
+            R.string.huluobo_des,
+            R.raw.huluobo,
+            R.raw.huluobo_story,
+        )
+        vegetableList.add(huluobo)
+        val qiezi = ImageModel(
+            R.string.qiezi_pinyin,
+            R.string.qiezi,
+            R.drawable.qiezi,
+            R.string.qiezi_des,
+            R.raw.qiezi,
+            R.raw.qiezi_story,
+        )
+        vegetableList.add(qiezi)
+        val yangcong = ImageModel(
+            R.string.yangcong_pinyin,
+            R.string.yangcong,
+            R.drawable.yangcong,
+            R.string.yangcong_des,
+            R.raw.yangcong,
+            R.raw.yangcong_story,
+        )
+        vegetableList.add(yangcong)
     }
 
     fun play(context: Context, @RawRes resId: Int) {
