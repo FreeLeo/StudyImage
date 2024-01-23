@@ -182,33 +182,152 @@ class MainViewModel : ViewModel() {
         )
         animalList.add(penguin)
 
-        val huluobo = ImageModel(
-            R.string.huluobo_pinyin,
-            R.string.huluobo,
+        val carrot = ImageModel(
+            R.string.carrot_pinyin,
+            R.string.carrot,
             R.drawable.huluobo,
-            R.string.huluobo_des,
+            R.string.carrot_des,
             R.raw.huluobo,
             R.raw.huluobo_story,
         )
-        vegetableList.add(huluobo)
-        val qiezi = ImageModel(
-            R.string.qiezi_pinyin,
-            R.string.qiezi,
+        vegetableList.add(carrot)
+        val eggplant = ImageModel(
+            R.string.eggplant_pinyin,
+            R.string.eggplant,
             R.drawable.qiezi,
-            R.string.qiezi_des,
+            R.string.eggplant_des,
             R.raw.qiezi,
             R.raw.qiezi_story,
         )
-        vegetableList.add(qiezi)
-        val yangcong = ImageModel(
-            R.string.yangcong_pinyin,
-            R.string.yangcong,
+        vegetableList.add(eggplant)
+        val onion = ImageModel(
+            R.string.onion_pinyin,
+            R.string.onion,
             R.drawable.yangcong,
-            R.string.yangcong_des,
+            R.string.onion_des,
             R.raw.yangcong,
             R.raw.yangcong_story,
         )
-        vegetableList.add(yangcong)
+        vegetableList.add(onion)
+        val potato = ImageModel(
+            R.string.potato_pinyin,
+            R.string.potato,
+            R.drawable.potato,
+            R.string.potato_des,
+            R.raw.potato,
+            R.raw.potato_story,
+        )
+        vegetableList.add(potato)
+        val tomato = ImageModel(
+            R.string.tomato_pinyin,
+            R.string.tomato,
+            R.drawable.tomato,
+            R.string.tomato_des,
+            R.raw.tomato,
+            R.raw.tomato_story,
+        )
+        vegetableList.add(tomato)
+        val cucumber = ImageModel(
+            R.string.cucumber_pinyin,
+            R.string.cucumber,
+            R.drawable.cucumber,
+            R.string.cucumber_des,
+            R.raw.cucumber,
+            R.raw.cucumber_story,
+        )
+        vegetableList.add(cucumber)
+        val corn = ImageModel(
+            R.string.corn_pinyin,
+            R.string.corn,
+            R.drawable.corn,
+            R.string.corn_des,
+            R.raw.corn,
+            R.raw.corn_story,
+        )
+        vegetableList.add(corn)
+        val mushroom = ImageModel(
+            R.string.mushroom_pinyin,
+            R.string.mushroom,
+            R.drawable.mushroom,
+            R.string.mushroom_des,
+            R.raw.mushroom,
+            R.raw.mushroom_story,
+        )
+        vegetableList.add(mushroom)
+        val broccoli = ImageModel(
+            R.string.broccoli_pinyin,
+            R.string.broccoli,
+            R.drawable.broccoli,
+            R.string.broccoli_des,
+            R.raw.broccoli,
+            R.raw.broccoli_story,
+        )
+        vegetableList.add(broccoli)
+        val lotus = ImageModel(
+            R.string.lotus_pinyin,
+            R.string.lotus,
+            R.drawable.lotus,
+            R.string.lotus_des,
+            R.raw.lotus,
+            R.raw.lotus_story,
+        )
+        vegetableList.add(lotus)
+        val ginger = ImageModel(
+            R.string.ginger_pinyin,
+            R.string.ginger,
+            R.drawable.ginger,
+            R.string.ginger_des,
+            R.raw.ginger,
+            R.raw.ginger_story,
+        )
+        vegetableList.add(ginger)
+        val pumpkin = ImageModel(
+            R.string.pumpkin_pinyin,
+            R.string.pumpkin,
+            R.drawable.pumpkin,
+            R.string.pumpkin_des,
+            R.raw.pumpkin,
+            R.raw.pumpkin_story,
+        )
+        vegetableList.add(pumpkin)
+        val spinach = ImageModel(
+            R.string.spinach_pinyin,
+            R.string.spinach,
+            R.drawable.spinach,
+            R.string.spinach_des,
+            R.raw.spinach,
+            R.raw.spinach_story,
+        )
+        vegetableList.add(spinach)
+        val garlic = ImageModel(
+            R.string.garlic_pinyin,
+            R.string.garlic,
+            R.drawable.garlic,
+            R.string.garlic_des,
+            R.raw.garlic,
+            R.raw.garlic_story,
+        )
+        vegetableList.add(garlic)
+        val pea = ImageModel(
+            R.string.pea_pinyin,
+            R.string.pea,
+            R.drawable.pea,
+            R.string.pea_des,
+            R.raw.pea,
+            R.raw.pea_story,
+        )
+        vegetableList.add(pea)
+        val chili = ImageModel(
+            R.string.chili_pinyin,
+            R.string.chili,
+            R.drawable.chili,
+            R.string.chili_des,
+            R.raw.chili,
+            R.raw.chili_story,
+        )
+        vegetableList.add(chili)
+
+
     }
 
     fun play(context: Context, @RawRes resId: Int) {

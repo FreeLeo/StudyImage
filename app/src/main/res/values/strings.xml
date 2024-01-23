@@ -72,19 +72,71 @@
     <string name="penguin">企鹅</string>
     <string name="penguin_des">企鹅，你看，这只企鹅正在走路，它的步态很独特，看起来就像是在摇摆。企鹅的羽毛是黑白相间的，身体短而结实。它们的小脚有蹼，非常适合在水里游泳。企鹅的脸上有明亮的眼睛和显著的喙。企鹅虽然不能飞，但它们是非常擅长游泳的鸟类。\t\t\t\t</string>
 
-    <string name="huluobo_pinyin">hú luó bo</string>
-    <string name="huluobo">胡萝卜</string>
-    <string name="huluobo_des">\t\t\t\t看这个胡萝卜，它是如此鲜艳和诱人！胡萝卜的颜色是鲜明的橙色，它的形状是长长的，一端细一端粗，非常特别。胡萝卜顶端有绿色的叶子，这些叶子看起来很新鲜。你知道吗，胡萝卜不仅颜色鲜艳，而且非常有营养，里面含有很多维生素，对我们的身体非常好。吃胡萝卜可以帮助我们保持健康的眼睛和皮肤。胡萝卜是一种蔬菜，可以生吃也可以煮着吃，味道都很美味哦！</string>
+    <string name="carrot_pinyin">hú luó bo</string>
+    <string name="carrot">胡萝卜</string>
+    <string name="carrot_des">\t\t\t\t看这个胡萝卜，它是如此鲜艳和诱人！胡萝卜的颜色是鲜明的橙色，它的形状是长长的，一端细一端粗，非常特别。胡萝卜顶端有绿色的叶子，这些叶子看起来很新鲜。你知道吗，胡萝卜不仅颜色鲜艳，而且非常有营养，里面含有很多维生素，对我们的身体非常好。吃胡萝卜可以帮助我们保持健康的眼睛和皮肤。胡萝卜是一种蔬菜，可以生吃也可以煮着吃，味道都很美味哦！</string>
 
-    <string name="qiezi_pinyin">qié zi</string>
-    <string name="qiezi">茄子</string>
-    <string name="qiezi_des">\t\t\t\t看看这个茄子，它的样子真是太棒了！茄子有一个光滑、有光泽的皮肤，它的颜色是深紫色的，非常吸引人的颜色。茄子的顶部有一个绿色的帽子和茎，这些绿色部分和紫色形成了美丽的对比。茄子是一种非常流行的蔬菜，它不仅颜色美丽，而且味道也很好。你可以用它来做很多不同的菜肴，比如炒茄子或者茄子煲。而且，茄子里面还有很多营养，对我们的身体健康很有帮助呢！</string>
+    <string name="eggplant_pinyin">qié zi</string>
+    <string name="eggplant">茄子</string>
+    <string name="eggplant_des">\t\t\t\t看看这个茄子，它的样子真是太棒了！茄子有一个光滑、有光泽的皮肤，它的颜色是深紫色的，非常吸引人的颜色。茄子的顶部有一个绿色的帽子和茎，这些绿色部分和紫色形成了美丽的对比。茄子是一种非常流行的蔬菜，它不仅颜色美丽，而且味道也很好。你可以用它来做很多不同的菜肴，比如炒茄子或者茄子煲。而且，茄子里面还有很多营养，对我们的身体健康很有帮助呢！</string>
 
-    <string name="yangcong_pinyin">yáng cōng</string>
-    <string name="yangcong">洋葱</string>
-    <string name="yangcong_des">\t\t\t\t这是一颗洋葱，它的样子很特别哦！洋葱是圆圆的，外面有一层浅棕色的纸质皮。当你剥开洋葱的皮，里面是白色的，层层叠叠，看起来很有趣。洋葱的底部有根，顶部有一点小芽。洋葱在做菜时非常重要，它能让食物变得更加美味。不过，剥洋葱的时候可能会让我们的眼睛有点辣辣的感觉，这是因为洋葱里有一种特殊的成分。</string>
+    <string name="onion_pinyin">yáng cōng</string>
+    <string name="onion">洋葱</string>
+    <string name="onion_des">\t\t\t\t这是一颗洋葱，它的样子很特别哦！洋葱是圆圆的，外面有一层浅棕色的纸质皮。当你剥开洋葱的皮，里面是白色的，层层叠叠，看起来很有趣。洋葱的底部有根，顶部有一点小芽。洋葱在做菜时非常重要，它能让食物变得更加美味。不过，剥洋葱的时候可能会让我们的眼睛有点辣辣的感觉，这是因为洋葱里有一种特殊的成分。</string>
 
-<!--    <string name="_pinyin"></string>-->
+    <string name="potato_pinyin">tǔ dòu</string>
+    <string name="potato">土豆</string>
+    <string name="potato_des">\t\t\t\t看看这个土豆，它的样子很特别呢！土豆的皮肤是棕色的，表面有点粗糙，而且形状不太规则，有些地方凸起来，有些地方凹下去。土豆虽然外表不太好看，但是它非常美味，也很有营养。你可以用土豆来做很多种美食，比如土豆泥、炸薯条，甚至可以做成土豆烧牛肉。土豆里面含有很多的维生素和矿物质，对我们的健康非常有益。</string>
+
+    <string name="tomato_pinyin">xī hóng shì</string>
+    <string name="tomato">西红柿</string>
+    <string name="tomato_des">\t\t\t\t这是一颗西红柿，看起来又红又诱人！西红柿的皮肤光滑而有光泽，颜色是鲜亮的红色。它看起来又大又圆，像是非常成熟和多汁。西红柿顶部有一段绿色的茎，增添了一丝自然的美感。西红柿不仅可以作为蔬菜烹饪，也是一种水果哦。它们富含维生素和矿物质，对身体健康非常有益。你可以用西红柿来做沙拉，或者做成西红柿炒蛋，味道都非常美味。</string>
+
+    <string name="cucumber_pinyin">huáng guā</string>
+    <string name="cucumber">黄瓜</string>
+    <string name="cucumber_des">\t\t\t\t这是一根黄瓜，看起来很新鲜呢！黄瓜是长长的圆柱形，颜色是明亮的绿色。它的皮肤上有一些小小的凸起，这是黄瓜特有的质感。黄瓜看起来既清脆又多汁，是夏天里很受欢迎的蔬菜。黄瓜不仅可以生吃，比如切成条放在沙拉里，也可以做成各种美味的菜肴，比如黄瓜炒鸡蛋。黄瓜含有很多水分和营养，对我们的身体健康非常有好处。</string>
+
+    <string name="corn_pinyin">yù mǐ</string>
+    <string name="corn">玉米</string>
+    <string name="corn_des">\t\t\t\t这是一根玉米棒，看起来非常诱人！玉米棒是长长的圆柱形，上面排列着一行行黄色的玉米粒。这些玉米粒又大又圆润，闪闪发亮，显示出它们是成熟的玉米。玉米棒外面还裹着几片绿色的叶子，这让它看起来更加自然。玉米不仅美味，而且营养丰富，含有多种维生素和矿物质。你可以把玉米煮熟了吃，也可以烤着吃，味道都很棒。玉米还可以制成玉米片或者玉米粉，用途非常广泛。</string>
+
+    <string name="mushroom_pinyin">mó gu</string>
+    <string name="mushroom">蘑菇</string>
+    <string name="mushroom_des">\t\t\t\t这是一朵蘑菇，它的样子很有趣呢！蘑菇有一个圆圆的帽子，颜色是柔和的乳白色，看起来很光滑。蘑菇的蒂部也是白色的，细长而坚固，支撑着帽子。蘑菇是一种真菌，不是植物也不是动物。在自然界中，蘑菇有很多不同的形状和颜色。有些蘑菇可以吃，它们味道鲜美，而且营养丰富。但也有些蘑菇是有毒的，所以我们在野外看到蘑菇时，不要随便摘来吃哦。蘑菇可以用来做很多美味的菜肴，比如蘑菇汤和炒蘑菇。</string>
+
+    <string name="broccoli_pinyin">huā yē cài</string>
+    <string name="broccoli">花椰菜</string>
+    <string name="broccoli_des">\t\t\t\t这是一颗花椰菜，它的样子真是太特别了！花椰菜看起来就像一朵白色的云，由许多紧密排列的小花蕾组成。它的颜色是奶油白色，表面的细节非常清晰，展示了复杂的小花蕾图案。花椰菜的底部还有几片绿色的叶子，增添了一些自然的美感。花椰菜不仅外观独特，而且营养丰富，含有很多维生素和矿物质。你可以用花椰菜来做蒸菜、炒菜，甚至可以做成花椰菜米，是一种非常健康的食材。</string>
+
+    <string name="lotus_pinyin">lián ǒu</string>
+    <string name="lotus">莲藕</string>
+    <string name="lotus_des">\t\t\t\t藕是一种水生植物的根茎，常见于池塘和河流。它是圆柱形的，有很多分段。当你把藕切开时，可以看到里面有很多洞，这些洞排列得很有规律，看起来很特别。藕的颜色通常是浅棕色或黄白色。它不仅外观独特，而且也是一种很受欢迎的食物，味道鲜美，口感脆嫩。</string>
+
+    <string name="ginger_pinyin">jiāng</string>
+    <string name="ginger">姜</string>
+    <string name="ginger_des">\t\t\t\t瞧，姜。姜是一种常见的调味料，有很多健康益处。它的外形不规则，有很多结节和凸起，看起来就像是一块块连接在一起。姜的皮是浅棕色的，表面粗糙。姜不仅味道独特，而且常被用于烹饪中增添风味。</string>
+
+    <string name="pumpkin_pinyin">nán guā</string>
+    <string name="pumpkin">南瓜</string>
+    <string name="pumpkin_des">\t\t\t\t南瓜是一种非常受欢迎的蔬菜，尤其在秋天的时候。它通常是圆形的，有鲜艳的橙色。南瓜的表面光滑但略带肋纹，这些细节在图片中都能看到。南瓜的茎通常是深绿色或棕色，与橙色形成鲜明对比。南瓜不仅外观好看，而且味道甜美，可以做成许多不同的菜肴。</string>
+
+    <string name="spinach_pinyin">bō cài</string>
+    <string name="spinach">菠菜</string>
+    <string name="spinach_des">\t\t\t\t菠菜是一种非常健康的蔬菜，它的颜色是绿色的。菠菜的叶子很特别，它们叶子边缘有点波浪形，中间有叶脉。菠菜的叶子和茎都可以吃，味道鲜美。菠菜里面含有很多对我们身体有好处的营养成分。比如说，它有很多维生素，特别是维生素A和维生素C，还有铁质和钙质。这些营养成分可以帮助我们保持健康，让我们的眼睛看得更清楚，让我们的骨头和牙齿更坚强。</string>
+
+    <string name="garlic_pinyin">suàn</string>
+    <string name="garlic">蒜</string>
+    <string name="garlic_des">\t\t\t\t这是蒜。蒜是一种调味品，通常用在烹饪中增添风味。它的外皮是白色的，像纸一样，你可以看到蒜瓣被这层皮包裹着。蒜头有点像个小球，底部有细小的根。每个蒜头里面都有几瓣蒜，它们紧紧挨在一起。蒜不仅能让食物变得更美味，还对我们的健康有好处。它可以帮助我们对抗感冒，还有很多其他的健康益处呢！</string>
+
+    <string name="pea_pinyin">wān dòu</string>
+    <string name="pea">豌豆</string>
+    <string name="pea_des">\t\t\t\t这是豌豆荚。豌豆荚是鲜艳的绿色，看起来很丰满和新鲜。在这张图片里，你可以看到豌豆荚里面有一些小豌豆，它们紧紧地挨在一起。豌豆荚有点开着，这样就能看到里面的小豌豆了。这些小豌豆是圆圆的，颜色也是绿色的。豌豆不仅味道鲜美，还富含营养，比如蛋白质和维生素。我们可以用豌豆来做很多种美味的菜肴，比如炒菜或是做成豌豆汤。吃豌豆对我们的身体有很多好处呢！</string>
+
+    <string name="chili_pinyin">là jiāo</string>
+    <string name="chili">辣椒</string>
+    <string name="chili_des">\t\t\t\t这是一些辣椒。在这张图片里，你可以看到辣椒有不同的颜色，从绿色到红色，这表示它们处于不同的成熟阶段。辣椒表面有光泽，形状略微弯曲。它们的大小和形状也有所不同，展现了自然界中的多样性。辣椒不仅可以让食物变得更有味道，还能给我们的身体带来好处。但要小心，因为辣椒很辣，不是每个人都喜欢这种味道。</string>
+
+    <!--    <string name="_pinyin"></string>-->
 <!--    <string name=""></string>-->
 <!--    <string name="_des">\t\t\t\t</string>-->
 </resources>
