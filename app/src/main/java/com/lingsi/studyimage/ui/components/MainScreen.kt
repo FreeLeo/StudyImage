@@ -138,7 +138,6 @@ fun ImageItem(
         )
 
         Text(
-            fontFamily = specialFontFamily,
             modifier = Modifier
                 .align(Alignment.CenterHorizontally)
                 .padding(top = 20.dp, bottom = 0.dp)

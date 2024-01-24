@@ -327,6 +327,96 @@ class MainViewModel : ViewModel() {
         )
         vegetableList.add(chili)
 
+        val apple = ImageModel(
+            R.string.apple_pinyin,
+            R.string.apple,
+            R.drawable.apple,
+            R.string.apple_des,
+            R.raw.apple,
+            R.raw.apple_story,
+        )
+        fruitList.add(apple)
+        val orange = ImageModel(
+            R.string.orange_pinyin,
+            R.string.orange,
+            R.drawable.orange,
+            R.string.orange_des,
+            R.raw.orange,
+            R.raw.orange_story,
+        )
+        fruitList.add(orange)
+        val pear = ImageModel(
+            R.string.pear_pinyin,
+            R.string.pear,
+            R.drawable.pear,
+            R.string.pear_des,
+            R.raw.pear,
+            R.raw.pear_story,
+        )
+        fruitList.add(pear)
+        val mango = ImageModel(
+            R.string.mango_pinyin,
+            R.string.mango,
+            R.drawable.mango,
+            R.string.mango_des,
+            R.raw.mango,
+            R.raw.mango_story,
+        )
+        fruitList.add(mango)
+        val pineapple = ImageModel(
+            R.string.pineapple_pinyin,
+            R.string.pineapple,
+            R.drawable.pineapple,
+            R.string.pineapple_des,
+            R.raw.pineapple,
+            R.raw.pineapple_story,
+        )
+        fruitList.add(pineapple)
+        val strawberry = ImageModel(
+            R.string.strawberry_pinyin,
+            R.string.strawberry,
+            R.drawable.strawberry,
+            R.string.strawberry_des,
+            R.raw.strawberry,
+            R.raw.strawberry_story,
+        )
+        fruitList.add(strawberry)
+        val cherry = ImageModel(
+            R.string.cherry_pinyin,
+            R.string.cherry,
+            R.drawable.cherry,
+            R.string.cherry_des,
+            R.raw.cherry,
+            R.raw.cherry_story,
+        )
+        fruitList.add(cherry)
+        val banana = ImageModel(
+            R.string.banana_pinyin,
+            R.string.banana,
+            R.drawable.banana,
+            R.string.banana_des,
+            R.raw.banana,
+            R.raw.banana_story,
+        )
+        fruitList.add(banana)
+        val grape = ImageModel(
+            R.string.grape_pinyin,
+            R.string.grape,
+            R.drawable.grape,
+            R.string.grape_des,
+            R.raw.grape,
+            R.raw.grape_story,
+        )
+        fruitList.add(grape)
+        val lemon = ImageModel(
+            R.string.lemon_pinyin,
+            R.string.lemon,
+            R.drawable.lemon,
+            R.string.lemon_des,
+            R.raw.lemon,
+            R.raw.lemon_story,
+        )
+        fruitList.add(lemon)
 
     }
 

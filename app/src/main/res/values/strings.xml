@@ -136,7 +136,47 @@
     <string name="chili">辣椒</string>
     <string name="chili_des">\t\t\t\t这是一些辣椒。在这张图片里，你可以看到辣椒有不同的颜色，从绿色到红色，这表示它们处于不同的成熟阶段。辣椒表面有光泽，形状略微弯曲。它们的大小和形状也有所不同，展现了自然界中的多样性。辣椒不仅可以让食物变得更有味道，还能给我们的身体带来好处。但要小心，因为辣椒很辣，不是每个人都喜欢这种味道。</string>
 
+    <string name="apple_pinyin">píng guǒ</string>
+    <string name="apple">苹果</string>
+    <string name="apple_des">\t\t\t\t这是一个苹果哦！苹果是一种非常美味的水果，通常是红色的，有时候也有一点绿色。它们的表面很光滑，上面有一个小小的茎。苹果不仅颜色鲜艳，而且味道也很甜。人们喜欢把苹果切成片吃，或者做成苹果派和果汁。</string>
+
+    <string name="orange_pinyin">chéng zi</string>
+    <string name="orange">橙子</string>
+    <string name="orange_des">\t\t\t\t看，这是一颗橙子！橙子是一种圆圆的、橙色的水果。它的皮肤有点凹凸不平，摸起来有点像小小的波浪。橙子里面有很多汁液，尝起来又酸又甜。人们通常会把它切开，然后吃里面的果肉，或者挤出汁来喝。橙子里面还有很多维生素C，对我们的身体非常有好处哦！</string>
+
+    <string name="pear_pinyin">lí</string>
+    <string name="pear">梨</string>
+    <string name="pear_des">\t\t\t\t这是一颗梨子。梨子是一种非常美味的水果，它的形状很特别，下面宽宽的，上面逐渐变细，有一个小小的棕色茎。梨子通常是绿色的，皮肤光滑又有光泽。吃梨子的时候，你会发现它又甜又多汁。梨子不仅味道好，而且还有很多对我们身体有益的营养成分哦！</string>
+
+    <string name="mango_pinyin">máng guǒ</string>
+    <string name="mango">芒果</string>
+    <string name="mango_des">\t\t\t\t这是一颗芒果。芒果是一种形状像椭圆的水果，颜色通常是黄橙色的，有些地方还带一点绿色。它的皮肤光滑而有光泽。当你吃芒果的时候，你会尝到它甜甜的，有点像桃子和橙子的味道。芒果不仅好吃，而且里面有很多维生素和矿物质，对身体很有好处哦！</string>
+
+    <string name="pineapple_pinyin">bō luó</string>
+    <string name="pineapple">菠萝</string>
+    <string name="pineapple_des">\t\t\t\t这是一颗菠萝。菠萝的外皮很特别，有很多小小的金棕色菱形图案，摸起来有点粗糙。它的顶部长着一些尖尖的绿色叶子。菠萝的果肉是黄色的，尝起来既甜又带点酸味，非常美味。人们常常把菠萝切成片或是做成菠萝汁。</string>
+
+    <string name="strawberry_pinyin">cǎo méi</string>
+    <string name="strawberry">草莓</string>
+    <string name="strawberry_des">\t\t\t\t这是一颗草莓。草莓的形状像心一样，颜色鲜红，表面有许多小小的黄色种子。它的顶部有一些绿色的叶子。草莓非常好吃，尝起来既甜又有一点点酸。人们喜欢把草莓做成果酱，或者加在蛋糕和冰淇淋上。吃草莓不仅可以享受它的美味，还可以补充身体所需的维生素和矿物质哦！</string>
+
+    <string name="cherry_pinyin">yīng táo</string>
+    <string name="cherry">樱桃</string>
+    <string name="cherry_des">\t\t\t\t这是一颗樱桃。樱桃是一种小而圆的水果，它的颜色非常鲜艳，通常是亮红色的。樱桃的表面很光滑，看起来有光泽。它的顶部有一个小小的绿色茎。樱桃尝起来非常甜美，是很多人喜欢的水果。</string>
+
+    <string name="banana_pinyin">xiāng jiāo</string>
+    <string name="banana">香蕉</string>
+    <string name="banana_des">\t\t\t\t这是一根香蕉。香蕉是一种长长的，呈弯曲形状的水果，它的颜色是鲜亮的黄色，表面很光滑。有时候，香蕉上会有一些小小的棕色斑点，那意味着它已经成熟了。香蕉味道很甜，是很多宝宝和大人都喜欢的水果。</string>
+
+    <string name="grape_pinyin">pú tao</string>
+    <string name="grape">葡萄</string>
+    <string name="grape_des">\t\t\t\t这是一串葡萄。葡萄是一种小小的水果，通常会成串地挂在藤蔓上。这些葡萄是深紫色的，表面光滑而有光泽，颜色会有一些深浅不同的变化。既可鲜食又可酿制葡萄酒，而且果实、根、叶皆可入药，全身都是宝。元朝诗人郑允端留下了“满筐圆实骑珠滑，入口甘香冰玉寒”的咏葡萄的诗句。</string>
+
+    <string name="lemon_pinyin">níng méng</string>
+    <string name="lemon">柠檬</string>
+    <string name="lemon_des">\t\t\t\t</string>
+
     <!--    <string name="_pinyin"></string>-->
-<!--    <string name=""></string>-->
-<!--    <string name="_des">\t\t\t\t</string>-->
+    <!--    <string name=""></string>-->
+    <!--    <string name="_des">\t\t\t\t</string>-->
 </resources>
